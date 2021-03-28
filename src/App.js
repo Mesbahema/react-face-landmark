@@ -32,6 +32,7 @@ function App() {
     //   scale: 0.8,
     // });
     // NEW MODEL
+    // const net = await facemesh.load(facemesh.SupportedPackages.mediapipeFacemesh);
     const net = await facemesh.load(facemesh.SupportedPackages.mediapipeFacemesh);
     setInterval(() => {
       detect(net);
